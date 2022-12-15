@@ -4,12 +4,11 @@
  * _isupper - checks uppercase
  * @c: parameter
  * Return: 0 if successful
- *
  */
 
 int _isupper(int c)
 {
-	if (c >= "A" && c <= "Z")
+	if (c >= 65 && c <= 90)
 	{
 		return (1);
 	}
